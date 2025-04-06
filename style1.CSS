@@ -1,0 +1,28 @@
+input[type="text"]{
+    background-color:red;
+}
+ul>li{
+    color: blue;
+}
+h1+h2{
+    color: darkgreen;
+}
+li:hover{
+    color: darkorange;
+}
+li:nth-child(3){
+    background-color:yellowgreen ;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+li::before{
+    content: "😁😁😁😁😁";
+}
+a::after{
+    content:"🤣🤣🤣";
+}
+p::first-letter{
+    font-size: 50px;
+    color: burlywood;
+}
